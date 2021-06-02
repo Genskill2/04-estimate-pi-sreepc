@@ -37,6 +37,24 @@ int main(void) {
       abort();
     }
   }
+float mc_pi(int count )
+{
+  float countcircle=0;
+  float countsquare=0;
+for(int i=0;i<count;i++)
+
+{
+  float x=frandom();
+float y=frandom();
+if(sqrt((x*x)+(y*y))<=1)
+countcircle++;
+else
+countsquare++;
+}
+float value=4*countcircle/(countsquare+countcircle);
+return value;
+}
+
 }
 
 
