@@ -3,7 +3,7 @@
 #include <stdio.h>
 #include <math.h>
 
-float wallis_pi(int);
+
 
 int main(void) {
   float pi;
@@ -31,6 +31,6 @@ for(int a=1;a<=count;a++)
  value*=num/(num-1);
  }
 return value*2;
-}
+}float wallis_pi(int);
 }
 
