@@ -13,7 +13,7 @@ for(int a=1;a<=count;a++)
  }
 return value*2;
 }float wallis_pi(int);
-}
+
 
 int main(void) {
   float pi;
