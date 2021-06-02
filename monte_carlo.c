@@ -3,7 +3,7 @@
 #include <stdio.h>
 #include <math.h>
 
-float mc_pi(int);
+
 
 float frandom() {
   long int q = random();
@@ -53,7 +53,7 @@ float mc_pi(int count )
 }
    float value=4*countcircle/(countsquare+countcircle);
    return value;
-}
+}float mc_pi(int);
 
 }
 
